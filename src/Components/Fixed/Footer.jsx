@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router'
 export const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-horizontal footer-center border-t border-blue-500 bg-black text-blue-500 rounded p-10">
+            <footer className="footer footer-horizontal footer-center border-t border-pink-500 bg-black text-pink-500 rounded p-10">
                 <nav className="grid grid-flow-col gap-4">
                     <NavLink to={'/'}>Home</NavLink>
                     <NavLink to={'/about'}>About</NavLink>
@@ -15,13 +15,13 @@ export const Footer = () => {
                 <nav>
                     <div className="grid grid-flow-col gap-4 text-3xl">
                         <a>
-                            <FaFacebook className='hover:text-blue-500 transition' />
+                            <FaFacebook className='hover:text-pink-500 transition' />
                         </a>
                         <a>
-                            <FaInstagram className='hover:text-blue-500 transition' />
+                            <FaInstagram className='hover:text-pink-500 transition' />
                         </a>
                         <a>
-                            <FaTwitter className='hover:text-blue-500 transition' />
+                            <FaTwitter className='hover:text-pink-500 transition' />
                         </a>
                     </div>
                 </nav>
