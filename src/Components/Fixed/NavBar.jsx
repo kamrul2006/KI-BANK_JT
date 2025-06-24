@@ -22,9 +22,9 @@ const NavBar = () => {
                     {/* Logo */}
                     <Link
                         to="/"
-                        className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-lime-500 via-lime-200 to-green-500 text-transparent bg-clip-text"
+                        className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-blue-500 via-blue-300 to-blue-700 text-transparent bg-clip-text"
                     >
-                        KIBank
+                        KI Bank
                     </Link>
 
                     {/* Desktop Menu */}
@@ -34,8 +34,8 @@ const NavBar = () => {
                                 key={link.path}
                                 to={link.path}
                                 className={({ isActive }) =>
-                                    `relative font-medium text-base transition duration-300 ${isActive ? "text-lime-600 border-b-2 transition" : "text-gray-400 hover:text-lime-600"
-                                    } after:block after:h-[2px] after:bg-lime-500 after:scale-x-0 after:hover:scale-x-100 after:origin-left after:transition-transform`
+                                    `relative font-medium text-base transition duration-300 ${isActive ? "text-blue-600 border-b-2 transition" : "text-gray-400 hover:text-blue-600"
+                                    } after:block after:h-[2px] after:bg-blue-500 after:scale-x-0 after:hover:scale-x-100 after:origin-left after:transition-transform`
                                 }
                             >
                                 {link.name}
@@ -50,7 +50,7 @@ const NavBar = () => {
                         <a
                             href=""
 
-                            className="ml-4 bg-gradient-to-r from-lime-700 to-lime-400  hover:to-lime-700 hover:from-lime-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold hidden lg:block"
+                            className="ml-4 bg-gradient-to-r from-blue-700 to-blue-400  hover:to-blue-700 hover:from-blue-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold hidden lg:block"
                         >
                             Get Card
                         </a>
@@ -60,7 +60,7 @@ const NavBar = () => {
                     <div className="md:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-400 hover:text-lime-600 transition"
+                            className="text-gray-400 hover:text-blue-600 transition"
                         >
                             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                         </button>
@@ -78,7 +78,7 @@ const NavBar = () => {
                                 to={link.path}
                                 onClick={() => setIsOpen(false)}
                                 className={({ isActive }) =>
-                                    `text-lg font-semibold transition ${isActive ? "text-lime-600 underline" : "text-gray-700 hover:text-lime-600"
+                                    `text-lg font-semibold transition ${isActive ? "text-blue-600 underline" : "text-gray-700 hover:text-blue-600"
                                     }`
                                 }
                             >
@@ -87,7 +87,7 @@ const NavBar = () => {
                         ))}
                         <a
                             href=""
-                            className="ml-4 bg-gradient-to-r from-lime-700 to-lime-400  hover:to-lime-700 hover:from-lime-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold "
+                            className="ml-4 bg-gradient-to-r from-blue-700 to-blue-400  hover:to-blue-700 hover:from-blue-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold "
                         >
                             Get Card
                         </a>

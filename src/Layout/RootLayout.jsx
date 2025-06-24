@@ -4,7 +4,7 @@ import { Footer } from '../Components/Fixed/Footer'
 
 export const RootLayout = () => {
     return (
-        <div>
+        <div className=''>
 
             <NavBar />
 
