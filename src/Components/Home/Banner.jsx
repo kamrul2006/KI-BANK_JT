@@ -36,8 +36,6 @@ function Banner() {
                             </Link>
 
                             <a
-                                href="/RESUME OF KAMRUL ISLAM .pdf"
-                                download
                                 className='border-2 hover:bg-pink-600 hover:text-white border-pink-600 text-pink-600 rounded-xl transition py-3  px-5 lg:px-9 lg:text-lg hover:drop-shadow-2xl hover:border-0 hover:drop-shadow-pink-950'>
                                 Get Started
                             </a>

@@ -15,7 +15,7 @@ const NavBar = () => {
 
 
     return (
-        <nav className="backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300">
+        <nav className="backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300 bg-white/10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
@@ -34,7 +34,7 @@ const NavBar = () => {
                                 key={link.path}
                                 to={link.path}
                                 className={({ isActive }) =>
-                                    `relative text-black text-lg transition duration-300 ${isActive ? "text-pink-700 border-b-2 transition" : "text-gray-700 hover:text-pink-600"
+                                    `relative text-lg transition duration-300 ${isActive ? "text-pink-700 border-b-2 transition font-semibold" : "text-gray-700 hover:text-pink-600"
                                     } `
                                 }
                             >
