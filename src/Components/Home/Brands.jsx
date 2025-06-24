@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 export const Brands = () => {
     return (
-        <div className='bg-gradient-to-b from-pink-50 to-white py-10'>
+        <div className='bg-gradient-to-b from-pink-50 to-white py-10 lg:py-20'>
 
             <Marquee>
                 <img src="/blogo/b1.png" alt="brandLogo" className='mx-8 lg:w-60 w-48' />
