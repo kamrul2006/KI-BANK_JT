@@ -26,7 +26,7 @@ export const Footer = () => {
                     </div>
                 </nav>
                 <aside>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by KIBank Ltd</p>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved by KI Bank Ltd.</p>
                 </aside>
             </footer>
 
