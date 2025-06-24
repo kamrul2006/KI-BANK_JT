@@ -9,7 +9,6 @@ const NavBar = () => {
         { name: "Home", path: "/" },
         { name: "About", path: "/about" },
         { name: "Services", path: "/services" },
-        { name: "Projects", path: "/projects" },
         { name: "Contact", path: "/contact" },
     ];
 
@@ -49,11 +48,11 @@ const NavBar = () => {
                     <div>
                         {/* dcv  Button */}
                         <a
-                            href="/RESUME OF KAMRUL ISLAM .pdf"
-                            download
-                            className="ml-4 bg-gradient-to-r from-lime-700 to-lime-400  hover:to-lime-700 hover:from-lime-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold"
+                            href=""
+
+                            className="ml-4 bg-gradient-to-r from-lime-700 to-lime-400  hover:to-lime-700 hover:from-lime-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold hidden lg:block"
                         >
-                            Download CV
+                            Get Card
                         </a>
                     </div>
 
@@ -86,13 +85,12 @@ const NavBar = () => {
                                 {link.name}
                             </NavLink>
                         ))}
-                        <Link
-                            to="/get-card"
-                            onClick={() => setIsOpen(false)}
-                            className="bg-gradient-to-r from-lime-600 to-lime-400 text-white px-6 py-2 rounded-full shadow-md hover:bg-lime-700 transition"
+                        <a
+                            href=""
+                            className="ml-4 bg-gradient-to-r from-lime-700 to-lime-400  hover:to-lime-700 hover:from-lime-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold "
                         >
-                            Download CV
-                        </Link>
+                            Get Card
+                        </a>
                     </div>
                 </div>
             )}
