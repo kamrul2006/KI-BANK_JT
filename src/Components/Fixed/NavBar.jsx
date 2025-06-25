@@ -47,13 +47,13 @@ const NavBar = () => {
 
                     <div>
                         {/* dcv  Button */}
-                        <a
-                            href=""
+                        <Link
+                            to="/error"
 
                             className="ml-4 bg-gradient-to-r from-pink-700 to-pink-400  hover:to-pink-700 hover:from-pink-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold hidden lg:block"
                         >
                             Get Card
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Mobile Toggle Button */}
@@ -85,12 +85,12 @@ const NavBar = () => {
                                 {link.name}
                             </NavLink>
                         ))}
-                        <a
-                            href=""
+                        <Link
+                            to="/Error"
                             className="ml-4 bg-gradient-to-r from-pink-700 to-pink-400  hover:to-pink-700 hover:from-pink-400   text-white px-4 py-2 rounded shadow-md transition duration-300 hover:drop-shadow-2xl font-semibold "
                         >
                             Get Card
-                        </a>
+                        </Link>
                     </div>
                 </div>
             )}
