@@ -5,7 +5,7 @@ import { TfiLock } from 'react-icons/tfi'
 
 export const Security = () => {
     return (
-        <div className=' bg-pink-200'>
+        <div className=' bg-pink-200 px-10 lg:px-0'>
             <div className='max-w-5xl mx-auto py-10 lg:py-20'>
                 <Fade>
                     <p className='text-pink-600 font-bold z-50'>Security</p>
@@ -26,8 +26,7 @@ export const Security = () => {
                             <h2 className='text-2xl font-medium'>Transparent Pricing</h2>
 
                             <p className='text-sm text-gray-700 text-justify pr-5'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, accusantium!
-                                Lorem ipsum dolor sit amet,
+                                “Dear Customers, we are thrilled you chose to purchase the Tryo from us. We are working hard to build even higher-quality products for our customers.
                             </p>
 
                             <button className='btn btn-secondary btn-outline btn-sm'>
@@ -46,8 +45,7 @@ export const Security = () => {
                             <h2 className='text-2xl font-medium'>Instant Cashout</h2>
 
                             <p className='text-sm text-gray-700 text-justify pr-5'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, accusantium!
-                                Lorem ipsum dolor sit amet,
+                                “Dear Customers, we are thrilled you chose to purchase the Tryo from us. We are working hard to build even higher-quality products for our customers.
                             </p>
 
                             <button className='btn btn-secondary btn-outline btn-sm'>
@@ -65,8 +63,7 @@ export const Security = () => {
                             <h2 className='text-2xl font-medium'>Fully Encrypted</h2>
 
                             <p className='text-sm text-gray-700 text-justify pr-5'>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, accusantium!
-                                Lorem ipsum dolor sit amet,
+                                “Dear Customers, we are thrilled you chose to purchase the Tryo from us. We are working hard to build even higher-quality products for our customers.
                             </p>
 
                             <button className='btn btn-secondary btn-outline btn-sm'>

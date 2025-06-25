@@ -4,6 +4,7 @@ import { Brands } from '../Components/Home/Brands'
 import { AboutUsSection } from '../Components/Home/AboutUsSection'
 import { Stats } from '../Components/Home/Stats'
 import { Security } from '../Components/Home/Security'
+import { AffordLessMoney } from '../Components/Home/AffordLessMoney'
 
 export const HomePage = () => {
     return (
@@ -18,6 +19,8 @@ export const HomePage = () => {
             <Stats />
 
             <Security />
+
+            <AffordLessMoney />
         </div>
     )
 }
