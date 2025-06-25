@@ -20,7 +20,7 @@ const NewsletterSignup = () => {
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                     Stay Connected. Stay Aware.
                 </h2>
-                <p className="text-lg text-gray-300 mb-8">
+                <p className="text-lg text-gray-200 mb-8">
                     Join our newsletter to receive the latest updates & news, and activism opportunities.
                 </p>
 
@@ -51,7 +51,7 @@ const NewsletterSignup = () => {
                     </p>
                 )}
 
-                <p className="mt-6 text-sm text-gray-400">
+                <p className="mt-6  text-gray-200">
                     We respect your privacy. Unsubscribe at any time.
                 </p>
             </div>
