@@ -3,6 +3,7 @@ import Banner from '../Components/Home/Banner'
 import { Brands } from '../Components/Home/Brands'
 import { AboutUsSection } from '../Components/Home/AboutUsSection'
 import { Stats } from '../Components/Home/Stats'
+import { Security } from '../Components/Home/Security'
 
 export const HomePage = () => {
     return (
@@ -15,6 +16,8 @@ export const HomePage = () => {
             <AboutUsSection />
 
             <Stats />
+
+            <Security />
         </div>
     )
 }
