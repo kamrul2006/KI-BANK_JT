@@ -6,6 +6,7 @@ import { Stats } from '../Components/Home/Stats'
 import { Security } from '../Components/Home/Security'
 import { AffordLessMoney } from '../Components/Home/AffordLessMoney'
 import { Review } from '../Components/Home/Review'
+import NewsletterSignup from '../Components/Home/NewsletterSignup'
 
 export const HomePage = () => {
     return (
@@ -24,6 +25,8 @@ export const HomePage = () => {
             <AffordLessMoney />
 
             <Review />
+
+            <NewsletterSignup />
         </div>
     )
 }
