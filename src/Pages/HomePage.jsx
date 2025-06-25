@@ -5,6 +5,7 @@ import { AboutUsSection } from '../Components/Home/AboutUsSection'
 import { Stats } from '../Components/Home/Stats'
 import { Security } from '../Components/Home/Security'
 import { AffordLessMoney } from '../Components/Home/AffordLessMoney'
+import { Review } from '../Components/Home/Review'
 
 export const HomePage = () => {
     return (
@@ -21,6 +22,8 @@ export const HomePage = () => {
             <Security />
 
             <AffordLessMoney />
+
+            <Review />
         </div>
     )
 }
