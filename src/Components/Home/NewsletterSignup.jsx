@@ -14,7 +14,8 @@ const NewsletterSignup = () => {
     };
 
     return (
-        <section className="bg-gradient-to-r from-pink-500 to-red-600 text-pink-50 py-20 px-4 max-w-7xl mx-auto rounded-4xl my-10">
+        <section className="bg-gradient-to-r from-pink-500 to-red-600 text-pink-50 py-20 px-4 max-w-7xl mx-auto rounded-4xl my-10 lg:my-28">
+
             <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                     Stay Connected. Stay Aware.

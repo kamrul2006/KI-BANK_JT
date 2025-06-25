@@ -4,9 +4,9 @@ export const AffordLessMoney = () => {
     return (
         <div className='bg-gradient-to-t from-white to-pink-200 py-10 lg:py-20'>
 
-            <div className='bg-gradient-to-t to-white from-pink-200 max-w-5xl lg:mx-auto mx-10 rounded-4xl '>
+            <div className='bg-gradient-to-t to-white from-pink-200 max-w-6xl lg:mx-auto mx-10 rounded-4xl shadow-xl'>
                 <div
-                    className='max-w-5xl mx-auto bg-cover bg-center relative rounded-4xl flex flex-col lg:flex-row items-center justify-center gap-7 px-6'
+                    className='max-w-6xl mx-auto bg-cover bg-center relative rounded-4xl flex flex-col lg:flex-row items-center justify-center gap-7 px-6'
                     style={{ backgroundImage: "url(/bxy.png)", }}>
 
                     {/* ----image------- */}
