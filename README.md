@@ -52,8 +52,8 @@ A sleek, modern digital banking front-end built using **React 19**, **Tailwind C
 Clone the repository:
 
 ```bash
-git clone https://github.com/kamrul2006/kibank-ui-jt.git
-cd kibank-ui-jt
+git clone https://github.com/kamrul2006/KI-BANK_JT.git
+cd KI-BANK_JT
 ````
 
 Install dependencies:
@@ -140,6 +140,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 Created by **Kamrul Islam Apurba**
-Reach out via [GitHub](https://github.com/kamrul2006) or email.
+Reach out via
+- [GitHub](https://github.com/kamrul2006) or
+- Email: kamrulislamapurba@gmail.com
 
 ---
